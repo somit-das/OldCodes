@@ -1,0 +1,52 @@
+*{
+ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+ 
+html,body{
+ 
+    height: 100%;
+    width: 100%;
+ 
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+}
+
+/* GSAP TIME LINE */
+
+#box3,#box4,#box5,
+#box6,#box7,#box8{
+    height: 200px;
+    width: 200px;   
+}
+#box3{
+    background-color: azure;
+}
+#box4{
+    background-color: brown;
+}
+#box5{
+    background-color: violet;
+}
+#box6{
+    background-color: purple;
+}
+#box7{
+    background-color: greenyellow;
+}
+#box8{
+    background-color: chocolate ;
+}

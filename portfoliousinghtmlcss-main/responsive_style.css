@@ -1,0 +1,233 @@
+/* Responsive */
+@media(max-width:1024px) {
+    p{
+        /* for universal p for mobile versions  */
+        font-size: 14px;
+        line-height: 1.8em;
+        /* letter-spacing: 0.1em; */
+    }
+
+   
+
+    .home,
+    .about,
+    .skills,
+    .contact,
+    .nav {
+        width: 100%;
+    }
+
+    .home h2,
+    .about h2,
+    .skills h2,
+    .works h2,
+    .contact h2,
+    .nav h2 {
+        margin-top: 40px;
+        font-size: 26px;
+    }
+
+    .home h3,
+    .about h3,
+    .skills h3,
+    .works h3,
+    .contact h3,
+    .nav h3 {
+        font-size: 22px;
+    }
+
+    .namelogo span{
+        /* font-size: 12px; */
+        display: none;
+    }
+    .nav button{
+        align-self: start;
+        justify-self: flex-start;
+    }
+    .nav {
+        display: flex;
+        /* flex-direction: row-reverse; */
+        justify-content:space-between;
+        box-shadow: none;
+        background-color: transparent;
+        z-index: 1;
+        padding: 0px 30px;
+    }
+    
+
+    .linksContainer .noListtype {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .nav .linksContainer .noListtype {
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        padding-bottom: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .nav .linksContainer .noListtype li a {
+        color: black;
+    }
+
+    /* main */
+    .main {
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main .descript {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .main .typewriter {
+        margin-bottom: 30px;
+    }
+
+    .main .description {}
+
+    .main img {
+        width: 200px;
+    }
+
+    /* about */
+    .about h2 {
+        /* align-self: center; */
+        /* justify-self: center;
+         */
+        text-align: center;
+        /* font-size: 32px; */
+        color: brown;
+    }
+
+    .about .aboutContainer {
+        line-height: 1.5;
+        gap: 20px;
+    }
+
+    .about .profile {
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .aboutContainer .profile .sd-img {
+        width: 100px;
+    }
+
+    .about .aboutContainer .profile,
+    .about .aboutContainer .about-me {
+
+        gap: 30px;
+    }
+
+    .about .aboutContainer .profile p,
+    .about .aboutContainer .about-me p {
+        font-size: 14px;
+    }
+
+    .profile h3,
+    .about-me h3 {
+        font-size: 18px;
+    }
+
+    .about .alignself li{
+        font-size: 14px;;
+    }
+    /* Skills */
+    .skills h2 {
+        font-size: 24px;
+    }
+
+    /* works */
+    .gridAligns {
+        grid-template-columns: auto auto;
+    }
+
+    /* contactMe */
+    .contact h2 {
+        /* font-size: 32px; */
+    }
+
+    .contact .contactcontainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .contact .contactcontainer .intouch,
+    .contact .contactcontainer .msg {
+        padding: 20px 30px;
+        text-align: center;
+        /* align-items: center; */
+        gap: 20px;
+    }
+
+    .contact .contactcontainer .intouch h3,
+    .contact .contactcontainer .msg h3 {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    .contact .contactcontainer .intouch .details {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+    body {
+        /* font-size: 14px; */
+    }
+
+    img {
+        width: 200px;
+    }
+
+   
+
+    .nav .linksContainer .noListtype li a {
+        display: inline-block;
+        /* height: 50px; */
+        /* width:60/px; */
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+        margin: 10px auto;
+        /* border:solid 2px rgba(0, 0, 255, 0.049); */
+        border: none;
+        border-radius: 10px;
+        text-shadow: 2px 2px 1px rgba(103, 75, 75, 0.255);
+        box-shadow: 7px 8px 3px 2px rgba(128, 128, 128, 0.063);
+    }
+
+    .nav .linksContainer .noListtype li a:active {
+        border-radius: 20px;
+        border: none
+    }
+
+
+    .main .description .som {
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    /* Works */
+    .gridAligns {
+        grid-template-columns: 1fr;
+    }
+
+    .gridAligns .projects img {
+        width: 100px;
+    }
+}

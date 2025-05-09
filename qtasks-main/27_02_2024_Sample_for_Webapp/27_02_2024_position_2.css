@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Patrick+Hand&display=swap');
+
+
+h1{
+    text-align: center;
+    color:#2ac7d5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:underline overline;
+    text-shadow: 3px 1px 3px black;
+    box-shadow: 10px 10px 10px 10px gray;
+    padding: 30px;
+}
+
+
+
+.whatsappmain{
+    margin: auto;
+    /* height:1200px; */
+    width:800px;
+    background-color: aqua;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px 10px gray;
+    gap:20px;
+    background-image: url(./Images/subtle-prism.png);
+    
+}
+
+
+.nav{
+    display: flex;
+    position:sticky;
+    top:0px;
+
+    
+}
+.charts,.Updates,.Calls{
+    /* position: fixed; */
+    width: 100%;
+    flex-grow: 2;
+    
+}
+.btn0{
+    /* width: 100%; */
+    display:inline-block;
+    color:white;
+    flex-basis: 39px;
+    background: transparent;
+    background-image: url(./Images/icons/people.png);
+    background-position: center;
+    background-color: gray; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.btn1{
+    display: inline-block;
+    /* width: 100%; */
+    padding:20px;
+    font-size: 24px;
+    background-color: rgb(28, 30, 33);
+    color: gray;
+    /* border:solid 2px ; */
+    border-radius: 2px;
+    flex-grow: 1;
+   
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+}
+.childs{
+    display: flex;
+    justify-content: space-evenly;
+    border:solid 1px #BBE2EC;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px gray;
+
+}
+.about p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.media{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+    margin-left:100px;
+}
+.imag1{
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.imag2{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 40px;
+    /* margin-left:200px; */
+}
+
+h6{
+  text-align: end;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:24px;
+}

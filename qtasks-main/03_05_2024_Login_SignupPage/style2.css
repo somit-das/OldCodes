@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        flex-shrink: 0;
+}
+.formContainer{
+        
+    height: auto;
+        
+}
+.formContainer form p{
+    /* width: 300px; */
+    text-align: center;
+}
+.formContainer .login{
+    padding: 10px 30px;
+}
+.formContainer .login .flogols{
+    display: block;
+    display: flex;
+    /* height: 30px; */
+    height: 40px;
+    border: solid 0.001px rgba(128, 128, 128, 0.226);
+    align-self: stretch;
+    padding: 10px 20px;
+    justify-content: center;
+    background-color: #1877f2;
+    color: white;
+}
+.formContainer .login img{
+    display: inline-block;
+}
+
+.formContainer .login .bgimg3{
+    /* height: 200px; */
+    width: 50px;
+    background-image: url(./Images/logos.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: 30px 20px;
+    background-position :-413px -301px ;
+    height:532px;
+    height: 16px;
+    width: 24px;
+}
+.biggertext{
+    font-size: 14px;
+}
+.smallertext{
+    font-size: 12px;
+}

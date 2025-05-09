@@ -1,0 +1,154 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.root{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.container{
+    height:100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+  
+}
+.container10{
+    /* height: 2; */
+    height: 100%;
+    width:75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap:40px; */
+}
+.facebookImage{
+    width:600px;
+}
+.facebookImage img{
+    width:300px;
+}
+.facebookImage p{
+    font-size:28px;
+    text-align: justify;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap:20px;
+}
+
+.form form{
+    padding:20px;
+    /* border: 1px solid rgba(128, 128, 128, 0.426); */
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 5px;
+    /* border-color: */
+    box-shadow:5px 5px 15px 2px rgba(128, 128, 128, 0.301);
+}
+.userlogins{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    
+}
+.userlogins input::placeholder{
+    color:rgba(128, 128, 128, 0.537);
+}
+.pass{
+    text-align: center;
+}
+.pass a{
+    text-decoration: none;
+    color:#0866ff;
+}
+.line{
+    border-top: 0.1px solid rgba(128, 128, 128, 0.334);
+}
+.form input{
+    padding:15px 25px;
+    border-radius: 5px;
+    border:1px solid rgba(128, 128, 128, 0.385);
+}
+.form input[type='submit']{
+    background-color: #1877f2;
+    color:#ffffff;
+}
+.form input[type='submit']{
+    font-size: 1.1em ;
+    font-weight: bold;
+}
+.form input[class='createact']{
+    width:75%;
+    background-color: #36a420;
+    align-self: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footerContainer{
+    width:75%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    /* justify-content: center; */
+}
+.head{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:20px;
+}
+.head button{
+    padding:2px 6px;
+    /* fon */
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px
+}
+.copyright p{
+    font-size:12px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .container{
+        height:85vh;
+    }
+    .container10{
+        
+   }
+   *{
+    /* font-size:24px; */
+   }
+   .facebookImage img{
+        width:250px;
+        
+   }
+}
+@media only screen and (max-width: 1024px) {
+    .container{
+        height:75vh;
+    }
+    .container10{
+        
+   }
+   *{
+    /* font-size:24px; */
+   }
+   .facebookImage img{
+        width:250px;
+        
+   }
+}  

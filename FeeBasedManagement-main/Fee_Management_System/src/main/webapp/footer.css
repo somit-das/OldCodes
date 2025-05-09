@@ -1,0 +1,32 @@
+.footer{
+    height:auto;
+    padding:20px;
+    font-family: "Times New Roman", Times, serif;
+}
+.header{
+    font-size:16px;
+}
+.col-3{
+    color:rgb(192, 192, 192);
+}
+a{
+     color:rgb(192, 192, 192);
+     text-decoration:none;
+}
+a:hover{
+    color:rgb(204, 196, 196);
+    text-decoration: underline; 
+}
+ .iconlist{
+    color:rgb(139, 134, 134);
+    font-weight: bold;
+    font-size:30px;
+    margin-left:10px;
+}
+.iconlist:hover{
+    color:rgb(204, 196, 196);   
+}
+@media screen and (max-width: 600px){
+	
+
+	}

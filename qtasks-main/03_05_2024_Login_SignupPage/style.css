@@ -1,0 +1,188 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a,p{
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+.root{
+    padding-top: 10vh;
+}
+.container,.footer{
+    width:60%;
+    margin: auto;
+}
+.container{
+    height: 100vh;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.imgContainer{
+    position: relative;
+    background-image: url(./Images/bacgroundPhone.png);
+    /* background-position: -2; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: -120px 0; */
+    /* height: 498px; */
+    width: 400px;
+    /* padding: 40px; */
+    align-items: center;
+}
+.imgContainer img{
+    /* height:460px; */
+    width: 215px;
+    /* width:180px;/ */
+    position: absolute;
+    right:50px;
+    top:20px;
+}
+/* formContainer */
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    height:450px;
+    width: 350px;
+    /* gap: 30; */
+    /* padding: 20px 10px; */
+    gap: 15px;
+   
+
+}
+.formContainer .login{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+    border: solid 0.001px rgba(128, 128, 128, 0.4);
+        border-radius: 2px;
+    padding: 30px 30px;
+    /* width: 400px; */
+    /* gpa */
+}
+.formContainer .login .bgimg2{
+    background-image: url(./Images/insta.png);
+    background-size: cover;
+    width:170px;
+    height: 50px;
+    background-position: 0px 200px;;
+
+    margin: 30px auto;
+    margin-bottom: 30px;
+}
+.formContainer form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+.formContainer form input{
+    display: block;
+    /* height: ; */
+    
+    padding:8px 10px;
+    border:solid 0.1px rgba(128, 128, 128, 0.274);
+    border-radius: 4px;
+}
+.formContainer form input:placeholder{
+    /* padding: 5px 10px; */
+    height: 30px;
+}
+.formContainer form input[type=submit]{
+    color: gray;
+    /* width: 300px; */
+}
+.formContainer .login .facebooklink {
+    display: block;
+    display: flex;
+    /* height: 30px; */
+    height: 40px;
+    align-self: stretch;
+    padding: 10px 20px;
+    justify-content: center;
+    color: rgb(73, 67, 67);
+}
+.formContainer .login .btnsign {
+    color: white;
+    background-color: #4cb5f9;
+}
+.formContainer .login .bgimg3 {
+    /* height: 200px; */
+    width: 50px;
+    background-image: url(./Images/logos.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: 30px 20px;
+    background-position: -413px -259px;
+    height: 532px;
+    height: 16px;
+    width: 24px;
+}
+.formContainer .login .fgpass{
+    align-self: center;
+}
+.formContainer .login .fgpass a{
+    font-size: 12px;
+    
+}
+.formContainer .login  .or{
+    align-self: center;
+    display: flex;
+    /* position: relative; */
+}
+.or .arr{
+    display: block;
+    border: solid 0.01px black;
+    /* border-bottom: 0px; */
+    /* border-width: 1px; */
+    width:80px;
+    /* height: 40px; */
+    border-left: none;
+    /* border-top: none; */
+    border-right: none;
+    border-bottom: none;
+    /* margin-left: 20px; */
+    /* align-items: center
+    ; */
+    position: relative;
+    top: 10px;
+    /* transform:  translate(-10px); */
+    /* transform: rotate(90deg) translate(-10px); */
+}
+.or div:nth-child(2){
+    padding:0px 30px;
+}
+
+.applinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.applinks .links{
+    display: flex;
+    gap: 10px;
+}
+.notAccount{
+    border: solid 0.0001px rgba(128, 128, 128, 0.253);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* gplay msstore */
+.gplay,.mstore{
+    height: 50px;
+    width:120px;
+}
+.gplay{
+    width: 140px;
+}

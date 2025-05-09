@@ -1,0 +1,97 @@
+*{
+ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+ 
+html,body{
+ 
+    height: 100%;
+    width: 100%;
+ 
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main form fieldset{
+    height: 800px;
+    width: 700px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#main form label{
+    height: 40px;
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+#main form label input{
+    justify-self: end;
+    height: 30px;
+    padding: 20px;
+}
+
+.error{
+    height: 50px;
+    color:red;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+.error::before{
+    position: absolute;
+    left: 24%;
+    top: 5%;
+    content: "*";
+}
+.error::after{
+    position:absolute;
+    bottom:-60%;
+    left:40%;
+    content:"Blank occurred";
+    /* content: var(--before-content);; */
+   
+}
+.pass_error{
+    height: 50px;
+    color:red;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+.pass_error::before{
+    position: absolute;
+    left: 24%;
+    top: 5%;
+    content: "*";
+}
+.pass_error::after{
+    position:absolute;
+    bottom:-60%;
+    left:40%;
+    content:"error occurred";
+    /* content: var(--before-content);; */
+   
+}
+#main form button{
+    margin-top: 60px;
+    padding:8px 18px;
+    
+    border-radius: 5px;
+}

@@ -1,0 +1,64 @@
+*{
+    font-size: large;
+}
+body {
+    background-color: #EEEEEE;
+    /* color:#FCBAD3; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container img{
+    border-radius: 30px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    color:#8785A2;
+}
+h3{
+    color:#00ADB5;
+}
+
+hr {
+ 
+    border-top-style: dotted;
+    border-bottom-style:none;
+    border-right-style:none;
+    border-left-style:none;
+    height: 0px;
+    width:10%; 
+    border-color:#FCBAD3;
+    border-width:10px;
+}
+a{
+    color: #FF2E63;
+}
+
+/* 
+font-size: determines size of font
+
+    1 px : 1/96th  inch
+    1 px : 1/72nd inch
+    1 em : 100% of parent  
+            for example : if parent is 20px  then 1 em of child is 20px
+                          and 2 em of child element will be 40px
+    1 rem: 100% of root
+            here instead of parent the all elements except root element will be relative to root(html) element.
+            2rem of child element will be 2 times pixel font size of root/html element
+    xx-large  it is a named font-size 
+    
+font-weight: determines how much bold a font should be
+     ranges between 100-900
+
+
+text-align: The text-align property specifies the horizontal alignment of text in an element.
+    */

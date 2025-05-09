@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> NareshIT Fee Report</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="resources/bootstrap-icons/font/bootstrap-icons.css">  
+<link rel="stylesheet" href="textstyle.css">
+<link rel="stylesheet" href="footer.css">
+</head>
+<body style="background-image:url(resources/images/bg1.webp);background-size:cover;">
+  <h3 class="slide">
+    <span style="--i:1;">N</span>
+    <span style="--i:2;">a</span>
+    <span style="--i:3;">r</span>
+    <span style="--i:4;">e</span>
+    <span style="--i:5;">s</span>
+    <span style="--i:6;">h</span>
+    <span style="--i:7;margin-left: 1.5vw;font-style: italic;">i</span>
+    <span style="--i:8;margin-left: 1.5vw;">T</span>
+    <span style="--i:9;">e</span>
+    <span style="--i:10;">c</span>
+    <span style="--i:11;">h</span>
+    <span style="--i:12;">n</span>
+    <span style="--i:13;">o</span>
+    <span style="--i:14;">l</span>
+    <span style="--i:15;">o</span>
+    <span style="--i:16;">g</span>
+    <span style="--i:17;">i</span>
+    <span style="--i:18;">e</span>
+    <span style="--i:19;">s</span>
+    <span style="--i:20;"><img src="resources/images/nitLogo.png" height="80" width="80" style="margin-top:-18%;"></span>
+  </h3><br><br><br>
+  
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark rounded-2 sticky-top">
+    <div class="container-fluid">
+      <div><b class="navbar-brand" style="color:rgb(73, 73, 255);">NareshIT</b></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+         <a class="nav-link" href="index.html"><span class="bi bi-house-fill"></span> Home</a>
+         
+         <div class="dropdown dropend">
+          <button class="btn btn-dark dropdown-toggle nav-link" data-bs-toggle="dropdown" style="color:rgba(173, 172, 172, 0.995);" >
+        <span class="bi bi-book-half"></span> Courses
+    </button>
+    <ul class="dropdown-menu rounded">
+        <li class="dropdown-header bg-primary text-center text-white">Frontend Development</li>
+        <li class="dropdown-item text-center"><a href="#hcj" data-bs-toggle="modal" style="color:black;">HTML,CSS,Javascript</a></li>
+        <li class="dropdown-item text-center"><a href="#bootstrap" data-bs-toggle="modal" style="color:black;">Bootstrap-5</a></li>
+        <li class="dropdown-item text-center"><a href="#angular" data-bs-toggle="modal" style="color:black;">Angular-14</a></li>
+        <li class="dropdown-header bg-success text-center text-white">Backend Development</li>
+        <li class="dropdown-item text-center"><a href="#java" data-bs-toggle="modal" style="color:black;">Java</a></li>
+        <li class="dropdown-item text-center"><a href="#python" data-bs-toggle="modal" style="color:black;">Python</a></li>
+        <li class="dropdown-item text-center"><a href="#dotnet" data-bs-toggle="modal" style="color:black;">.Net</a></li>
+        <li class="dropdown-header bg-danger text-center text-white">DataBase & Other</li>
+        <li class="dropdown-item text-center"><a href="#oracle" data-bs-toggle="modal" style="color:black;">SQL,Oracle</a></li>
+        <li class="dropdown-item text-center"><a href="#devops" data-bs-toggle="modal" style="color:black;">Devops</a></li>
+        <li class="dropdown-item text-center"><a href="#testing" data-bs-toggle="modal" style="color:black;">Testing</a></li>
+    </ul>
+        </div>
+   
+         <a class="nav-link"  data-bs-toggle="modal" href="#contact"><span class="bi bi-telephone-plus-fill"></span> Contact Us</a> 
+</div>
+    </div>
+  </nav>
+<br>
+ 
+     <div class="container-fluid">
+      <div style="margin-left:-30%" id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="resources/images/java.jpg" class="rounded-2 d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="resources/images/Python2.jpg" class="rounded-2 d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="resources/images/ds2.jpg" class="rounded-2 d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="resources/images/DevOps2.jpg" class="rounded-2 d-block w-100">
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark py-4 rounded-1" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark py-4 rounded-1" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+      </div>
+</div>
+     </div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container">
+<div class="row">
+  <div class="col-1">
+
+  </div>
+
+<div class="col-4">
+<div class="p-5 w-100 shadow-lg rounded-4" style="border:1 px solid black;">
+    <img src='resources/images/admin.jpg'height='90'width='90' class="img-fluid d-block mx-auto" style="border-radius:50%;border:1px solid black">
+    <b class="mx-4 text-success" style='font-size:25px;font-family: "Times New Roman", Times, serif;'>Admin Login Form</b><br><br>
+<form action="AdminLogin" method="post">  
+<b class="form-label"><span class="bi bi-envelope-fill"></span> Email</b> 
+<input class="form-control" type="email" name="email" required/>
+<b class="form-label"><span class="bi bi-key-fill"></span> Password</b>
+<input type="password" class="form-control" name="password" required/><br><br>
+<button type="submit" class="btn btn-outline-success w-100">Sign Up <span class="bi bi-box-arrow-right"></span></button>
+</form>  
+</div>
+</div>
+
+<div class="col-2">
+
+</div>
+
+<div class="col-4">
+  <div class="p-5 w-100 shadow-lg rounded-4" style="border:1 px solid black;">
+    <img src='resources/images/accountant.jpg'height='90'width='90' class="img-fluid d-block mx-auto" style="border-radius:50%;border:1px solid black">
+    <b class="text-success" style='font-size:25px;font-family: "Times New Roman", Times, serif;'>Accountant Login Form</b><br><br>
+<form action="AccountantLogin" method="post">  
+<b class="form-label"><span class="bi bi-envelope-fill"></span> Email</b> 
+<input class="form-control" type="email" name="email" required/>
+<b class="form-label"><span class="bi bi-key-fill"></span> Password</b>
+<input type="password" class="form-control" name="password" required/><br><br>
+<button type="submit" class="btn btn-outline-success w-100">Sign Up <span class="bi bi-box-arrow-right"></span></button>
+</form>  
+</div>
+</div>
+
+<div class="col-1">
+
+</div>
+
+</div>
+</div>
+
+<br><br>
+<div class="footer bg-dark rounded-2">
+  <div class="row">
+    <div class="col-3">
+      <div class="header">
+        <u><b>ABOUT NARESH I TECHNOLOGIES</b></u><br><br>
+      </div>
+      Training Institute Overview Naresh i Technologies Naresh i Technologies (Pronounced: NareshIT) is a leading software training institute providing Software Training, Project Guidance, IT Consulting and Technology Workshops. Using our enhanced global software training delivery methodology.
+    </div>
+    <div class="col-3">
+      <div class="header">
+        <u><b>INTERVIEW QUESTIONS</b></u><br><br>
+      </div> 
+      <ul>
+        <li><strong><a href="https://nareshit.com/devops-interview-questions-150/?utm_source=nareshit_in&amp;utm_medium=Footer&amp;utm_campaign=Interview_nit" target="_blank" rel="noopener">DevOps Interview Questions</a></strong></li>
+        <li><strong><a href="https://nareshit.com/angularjs-interview-questions/?utm_source=nareshit_in&amp;utm_medium=Footer&amp;utm_campaign=Interview_nit" target="_blank" rel="noopener">AngularJS Interview Questions</a></strong></li>
+        <li><strong><a href="https://nareshit.com/java-interview-questions/?utm_source=nareshit_in&amp;utm_medium=Footer&amp;utm_campaign=Interview_nit" target="_blank" rel="noopener">Java Interview Questions</a></strong></li>
+        <li><strong><a href="https://nareshit.com/html-interview-questions/?utm_source=nareshit_in&amp;utm_medium=Footer&amp;utm_campaign=Interview_nit" target="_blank" rel="noopener">HTML Interview Questions</a></strong></li>
+        <li><strong><a href="https://nareshit.com/javascript-interview-questions/?utm_source=nareshit_in&amp;utm_medium=Footer&amp;utm_campaign=Interview_nit" target="_blank" rel="noopener">JavaScript Interview Questions</a></strong></li>
+        <li><strong><a href="https://nareshit.com/advanced-java-interview-questions/?utm_source=nareshit_in&amp;utm_medium=Footer&amp;utm_campaign=Interview_nit" target="_blank" rel="noopener">Adv Java Interview Questions</a></strong></li>
+        <li><strong><a href="https://nareshit.com/html5-and-css-interview-questions/?utm_source=nareshit_in&amp;utm_medium=Footer&amp;utm_campaign=Interview_nit" target="_blank" rel="noopener">HTML5 & CSS Interview Questions<br/>
+        </a></strong></li>
+        </ul>
+    </div>
+    <div class="col-3">
+      <div class="header">
+        <u><b>HYDERABAD MAIN CAMPUS</b></u><br><br>
+      </div> 
+      <b>Add</b>: 2nd Floor, Durga Bhavani Plaza,
+      Ameerpet, Hyderabad<br>
+      <b>Ph</b> : 040-2374 6666 / 2373 4842<br>
+      <b>Email</b> : support@nareshit.com<br><br>
+      <b><u>For Online Training:</u></b><br>
+      <b>Call/Whatsapp</b>:  +91-8179191999<br>
+      <b>Email</b>: onlinetraining@nareshit.com 
+    </div>
+    <div class="col-3">
+      <div class="header">
+        <u><b>FOLLOW ON US SOCIAL MEDIA</b></u><br><br>
+      </div> 
+    <a href="https://www.facebook.com/nareshit/" class="iconlist"> <span class="bi bi-facebook"></span></a>
+     <a href="https://www.instagram.com/nareshitech/" class="iconlist"><span class="bi bi-instagram" class="iconlist"></span></a>
+     <a href="https://in.linkedin.com/company/naresh-i-technologies/" class="iconlist"><span class="bi bi-linkedin"></span></a>
+     <a href="https://twitter.com/nareshitech"  class="iconlist"><span class="bi bi-twitter" ></span></a>
+    <a href="https://www.youtube.com/channel/UC4o8Fdpv3g_AjgShAeivqpA/about?sub_confirmation=1" class="iconlist"> <span class="bi bi-youtube"></span></a>
+    <br>
+  <div class="header"><br>
+    <u><b style="font-size:15px;">JOIN OUR TELEGRAM-GET UPDATES</b></u><br><br>
+  </div> 
+  <ul>
+    <li><a href="https://t.me/nareshit"><strong>Nareh IT Official Channel</strong></a></li>
+    <li><strong><a href="https://t.me/pythonlatestupdates">Python</a></strong> |<strong><a href="https://t.me/javalatestupdates">Java</a></strong> |
+     <strong><a href="https://t.me/awslatestupdates">AWS</a></strong> | <strong><a href="https://t.me/devopsupdate">DevOps</a></strong> |
+     <strong><a href="https://t.me/datasciencenewupdates">Data Science</a></strong></li>
+        </div>
+      </div>
+  </ul> 
+</div>
+
+<div class="modal fade" id="contact">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="text-success"><b style="font-family: 'Times New Roman', Times, serif;">Contact Details</b></h4>
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/images/nitnav.png" style="margin-left:130px;" height="100" width="200">
+            <div class="row">
+              <div class="col-6">
+                <b>Name:</b>Naresh I Technologies<br>
+                <b>Email ID:</b>info@nareshit.com<br>
+                <b>Contact No:</b>+91-8179191999<br>
+                <b>Address:</b>Amerpeet,Hyderabad<br>
+              </div>
+              <div class="col-6">
+                <img src="resources/images/contact.webp" height="93" width="190">
+              </div>
+
+            </div><br>
+             
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="hcj">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="text-primary"><b style="font-family: 'Times New Roman', Times, serif;">HTML,CSS,JS Course Details</b></h4>
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/images/js.jpg" style="margin-left:130px;" height="100" width="220">
+            <div class="row">
+              <div class="col-3 text-success">
+                <b>Course:</b><br>
+                <b>Faculty:</b><br>
+                <b>Fees:</b><br>
+                <b>Durations:</b><br>
+                <b>Timings:</b><br>
+                <b>Description:</b><br>
+              </div>
+              <div class="col-9 text-warning">
+               HTML,CSS,Javascript<br>
+              Mr. Sudhakar Sharma<br>
+              &#8377; 5000<br>
+              15 Days<br>
+              09:00 AM<br>
+               HTML,CSS & Javascript are the strong foundation of Web Development.In Web Development HTML defined the Structure of web page,CSS defines the styling,attractive fonts,backgrounds of the webpage & Javascript defines the behaviour of webpage.
+              </div>
+            </div><br>
+             
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-warning" data-bs-dismiss="modal">Close <span class="bi bi-backspace-reverse"></span></button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="bootstrap">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="text-primary"><b style="font-family: 'Times New Roman', Times, serif;">Boostrap-5 Course Details</b></h4>
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/images/bootstrap.png" style="margin-left:130px;" height="100" width="220">
+            <div class="row">
+              <div class="col-3 text-success">
+                <b>Course:</b><br>
+                <b>Faculty:</b><br>
+                 <b>Fees:</b><br>
+                <b>Durations:</b><br>
+                <b>Timings:</b><br>
+                <b>Description:</b><br>
+              </div>
+              <div class="col-9 text-warning">
+               Bootstrap-5<br>
+                Mr. Sudhakar Sharma<br>
+                &#8377; 1000<br>
+              20 Days<br>
+              07:30 AM<br>
+               Bootstrap-5 is used mostly in webpages now a days.It is the mostly used CSS framework that is used for to make the webpage responsive and to develope mobile fast devices.Right now Bootstrap version 5 is the new version along with new features.
+            </div><br>
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-warning" data-bs-dismiss="modal">Close <span class="bi bi-backspace-reverse"></span></button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="angular">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="text-primary"><b style="font-family: 'Times New Roman', Times, serif;">Angular-14 Course Details</b></h4>
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/images/angular.jpg" style="margin-left:130px;" height="100" width="220">
+            <div class="row">
+              <div class="col-3 text-success">
+                <b>Course:</b><br>
+                <b>Faculty:</b><br>
+                 <b>Fees:</b><br>
+                <b>Durations:</b><br>
+                <b>Timings:</b><br>
+                <b>Description:</b><br>
+              </div>
+              <div class="col-9 text-warning">
+               Angular-14<br>
+                Mr. Sudhakar Sharma<br>
+                &#8377; 3000<br>
+              40 Days<br>
+              10:30 AM<br>
+              Angular-14 is a client side TypeScript based framework which is used to create dynamic web applications. It is very similar to its previous versions except having some extensive features. 
+              </div><br>
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-warning" data-bs-dismiss="modal">Close <span class="bi bi-backspace-reverse"></span></button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="java">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="text-primary"><b style="font-family: 'Times New Roman', Times, serif;">Java Course Details</b></h4>
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/images/java.png" style="margin-left:130px;" height="100" width="220">
+            <div class="row">
+              <div class="col-3 text-success">
+                <b>Course:</b><br>
+                <b>Faculty:</b><br>
+                 <b>Fees:</b><br>
+                <b>Durations:</b><br>
+                <b>Timings:</b><br>
+                <b>Description:</b><br>
+              </div>
+              <div class="col-9 text-warning">
+               Java<br>
+              Mr. Hari Krishna<br>
+              &#8377; 6000<br>
+              90 Days<br>
+              02:00 PM<br>
+              Java is mostly used server side backend programming Language.It has three parts Core java,Advance Java & framework.Core java is used for developing Standalone Apps,advance java & Framework are for building web apps. 
+             
+             </div>
+            </div><br>
+             
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-warning" data-bs-dismiss="modal">Close <span class="bi bi-backspace-reverse"></span></button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="python">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="text-primary"><b style="font-family: 'Times New Roman', Times, serif;">Python Course Details</b></h4>
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/images/python.png" style="margin-left:130px;" height="100" width="220">
+            <div class="row">
+              <div class="col-3 text-success">
+                <b>Course:</b><br>
+                <b>Faculty:</b><br>
+                 <b>Fees:</b><br>
+                <b>Durations:</b><br>
+                <b>Timings:</b><br>
+                <b>Description:</b><br>
+              </div>
+              <div class="col-9 text-warning">
+               Python<br>
+              Mr.Subba Raju<br>
+              &#8377; 6000<br>
+              75 Days<br>
+              03:00 PM<br>
+              Python is mostly used Scripting backend programming Language.It is used for both client side and server side.Python has a rich set of libraries in worls as compared to other programming languages.
+             
+             </div>
+            </div><br>
+             
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-warning" data-bs-dismiss="modal">Close <span class="bi bi-backspace-reverse"></span></button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="dotnet">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="text-primary"><b style="font-family: 'Times New Roman', Times, serif;">C#.NET Course Details</b></h4>
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/images/dotnet.webp" style="margin-left:130px;" height="100" width="220">
+            <div class="row">
+              <div class="col-3 text-success">
+                <b>Course:</b><br>
+                <b>Faculty:</b><br>
+                 <b>Fees:</b><br>
+                <b>Durations:</b><br>
+                <b>Timings:</b><br>
+                <b>Description:</b><br>
+              </div>
+              <div class="col-9 text-warning">
+               C#.NET<br>
+              Mr. Srikanth<br>
+              &#8377; 6000<br>
+              75 Days<br>
+              06:00 PM<br>
+             C#.NET is a free, cross-platform, open source developer platform for building many different types of applications. With . NET, you can use multiple languages, editors, and libraries to build for web, mobile, desktop, games, IoT, and more.     
+             </div>
+            </div><br>
+             
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-warning" data-bs-dismiss="modal">Close <span class="bi bi-backspace-reverse"></span></button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="oracle">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="text-primary"><b style="font-family: 'Times New Roman', Times, serif;">Oracle(SQL/PL-SQL) Course Details</b></h4>
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/images/oracle.png" style="margin-left:130px;" height="100" width="220">
+            <div class="row">
+              <div class="col-3 text-success">
+                <b>Course:</b><br>
+                <b>Faculty:</b><br>
+                 <b>Fees:</b><br>
+                <b>Durations:</b><br>
+                <b>Timings:</b><br>
+                <b>Description:</b><br>
+              </div>
+              <div class="col-9 text-warning">
+               Oracle(SQL/PL-SQL)<br>
+              Mr. Sudhakar L<br>
+              &#8377; 3000<br>
+              60 Days<br>
+              7:30 PM<br>
+             Oracle Database is the first database designed for enterprise grid computing, the most flexible and cost effective way to manage information and applications.It supports both SQL & PL-SQL database languages.
+              </div>
+            </div><br>
+             
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-warning" data-bs-dismiss="modal">Close <span class="bi bi-backspace-reverse"></span></button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="devops">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="text-primary"><b style="font-family: 'Times New Roman', Times, serif;">DevOps Course Details</b></h4>
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/images/devops.png" style="margin-left:130px;" height="100" width="220">
+            <div class="row">
+              <div class="col-3 text-success">
+                <b>Course:</b><br>
+                <b>Faculty:</b><br>
+                 <b>Fees:</b><br>
+                <b>Durations:</b><br>
+                <b>Timings:</b><br>
+                <b>Description:</b><br>
+              </div>
+              <div class="col-9 text-warning">
+               DevOps<br>
+                 Mr. Raham<br>
+                 &#8377; 3000<br>
+              35 Days<br>
+              11:00 AM<br>
+             DevOps is a continuous integration/continuous delivery (CI/CD) service that automates the delivery and deployment of software to Oracle Cloud Infrastructure (OCI) compute platforms.
+              </div>
+            </div><br>
+             
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-warning" data-bs-dismiss="modal">Close <span class="bi bi-backspace-reverse"></span></button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" id="testing">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="text-primary"><b style="font-family: 'Times New Roman', Times, serif;">Testing(Salenium) Course Details</b></h4>
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/images/testing.png" style="margin-left:130px;" height="100" width="220">
+            <div class="row">
+              <div class="col-3 text-success">
+                <b>Course:</b><br>
+                <b>Faculty:</b><br>
+                 <b>Fees:</b><br>
+                <b>Durations:</b><br>
+                <b>Timings:</b><br>
+                <b>Description:</b><br>
+              </div>
+              <div class="col-9 text-warning">
+               Salenium<br>
+                 Mr. Bharath<br>
+                 &#8377; 3000<br>
+              30 Days<br>
+              12:00 PM<br>
+             Testing is of 2 types.Manual & Automation.Selenium also provides tools to replay the recorded UI tests and check whether the tests are successful. This article explains how to use Selenium to perform automated UI testing of an Oracle Application Development Framework (Oracle ADF) 11g application.           
+            </div>
+            </div><br>
+             
+          </div>
+          <div class="modal-footer">
+              <button class="btn btn-warning" data-bs-dismiss="modal">Close <span class="bi bi-backspace-reverse"></span></button>
+          </div>
+      </div>
+  </div>
+</div>
+
+</body>
+</html>

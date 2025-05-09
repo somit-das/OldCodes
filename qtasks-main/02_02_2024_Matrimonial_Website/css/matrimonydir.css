@@ -1,0 +1,206 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    font-size: 24px ;
+}
+/* header */
+.header{
+    background-color: #76c7c0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 100px; */
+    /* height:100px; */
+
+}
+.header img {
+    height:70px;
+}
+
+.langs ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.langs ul li{
+    color:white;
+    /* height: 100%; */
+}
+.langs ul li a {
+    color:gray;
+    display: block;
+    padding: 20px;
+    /* height:  ; */
+}
+.langs ul li a:hover {
+    color:white;
+    border: solid 1px white;
+    border-bottom: solid 4px red;
+}
+.btn0{
+    background-color: #528b86;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.btn0 a{
+    text-decoration: none;
+    color: #fff;
+    height: 100px ;
+}
+/* Matrimony Directory */
+.matrimonyDirectory{
+    background-color: #f3f3f3;
+    /* padding:60px; */
+    /* width:80%; */
+    /* margin: auto; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+.matrimonyDirectory .section{
+    width:80%;
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    gap:50px;
+    height: 100vh;
+}
+
+.section h1{
+    font-weight: 500;
+    color:#666666;
+    font-size: 48px;
+}
+.section hr{
+    color:red;
+    width: 100%;
+}
+.religiousMatrimony{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: start;
+    height: 100%;
+    gap: 30px;
+}
+.religious{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+.religious a{
+    display: inline-block;
+}
+/* footer */
+.footer{
+    /* margin-top: 20px; */
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    align-items: center;
+    /* justify-items: center; */
+    margin: auto;
+    margin-bottom: 10vh;
+    margin-top:10vh
+}
+.footer h2{
+    color:#666666;
+}
+.aboutShadi,.needhelp,.company , .privacy,.more{
+    padding-left: 30px;
+}
+.aboutShadi{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    gap:20px;
+    /* padding */
+}
+
+.aboutShadi p{
+    font-size:18px;
+    width:600px;
+    color: #666666;
+}
+.needhelp,.company , .privacy,.more{
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap:20px;
+}
+.footer ul li {
+    /* lis */
+    list-style-type: ">";
+    color:#736572;
+    padding-bottom:5px;
+    /* line-height-step: 45px; */
+    
+}
+.footer  ul li:hover{
+    color:#c14d4d;
+}
+.footer  ul li a{
+    text-decoration: none;
+    
+}
+.footer  ul li a:hover {
+    font-size: 18px;
+    color: #c14d4d;
+    padding-left:20px;
+}
+/* copyright */
+.copyright{
+    background-color: #aa0000;
+}
+.copyright .container01{
+    padding-top:40px;
+    /* padding:40px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.followus{
+    padding: 20px;
+    color:white;
+}
+.shadi_trademark{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap:20px;
+}
+.container011{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.followus {
+    padding-left: 100px;
+}
+.container011 p{
+    color: #fff;
+}

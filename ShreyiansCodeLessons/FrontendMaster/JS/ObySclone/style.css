@@ -1,0 +1,24 @@
+*{
+ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+ 
+html,body{
+ 
+    height: 100%;
+    width: 100%;
+ 
+}
+/* #0B0B0B */
+#main{
+    position: relative;
+    background-color: #111;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: #1d1d1d;
+}

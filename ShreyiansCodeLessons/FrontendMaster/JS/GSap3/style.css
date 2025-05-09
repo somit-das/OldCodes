@@ -1,0 +1,53 @@
+*{
+ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+ 
+html,body{
+ 
+    height: 100%;
+    width: 100%;
+ 
+}
+#page1,#page2,#page3{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page1{
+    
+    background-color: salmon;
+}
+
+
+#page2{
+    
+    background-color: aquamarine;
+}
+
+#page3 {
+   
+    background-color: steelblue;
+}
+.circle{
+    height:300px;
+    width:300px;
+    background-color: red;
+    border-radius: 50%;
+    background: linear-gradient(lightblue,royalblue);
+
+}
+#page2 .circle{
+    background: linear-gradient(#FDDBBB,#CB9DF0);
+}
+
+#page3 .circle{
+    background: linear-gradient(#f5d3e1,#fc6a83);
+}
+

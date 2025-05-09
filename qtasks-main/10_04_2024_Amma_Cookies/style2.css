@@ -1,0 +1,240 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+html {
+    height: 100%;
+}
+body{
+    /* height: min-content; */
+    background-color: #ffe6c7;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+    /* width:100%; */
+    /* min-height: ; */
+    min-height: 100%;
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+}
+.root{
+  
+    /* position:fixed; */
+/* bottom:0; */
+}
+.header, .updates , .googlereview{
+    width: 80%;
+}
+.header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    /* justify-content: space-between; */
+    /* height: 70vh; */
+    /* margin-bottom:10vh; */
+}
+
+.navlinks{
+    background-color: #ff6000;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding:10px 20px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 96%;
+}
+.navlinks img {
+    height: 50px;
+}
+.links ul{
+    display: flex;
+    /* justify-content: space-around; */
+    gap:50px;
+}
+.links ul li{
+    list-style-type: none;
+}
+.links a{
+    text-decoration: none;
+    color:white;
+}
+.ruppeestore{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.ruppeestore p{
+    color:white;
+}
+.ruppeestore svg{
+    /* fill:'white'; */
+    color: white;
+    fill: currentColor;;
+    /* height:30px; */
+}
+.indi svg{
+    height:20px;
+    width: 20px;
+}
+.themecakes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+.cakesContainer{
+    /* width:80px; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: #ffa559 ;
+    padding:30px 0px;
+    border-radius: 14px;
+}
+.cakesContainer img{
+    /* height:300px; */
+    width:85%;
+    border-radius: 0%;
+    border-radius: 10px;
+}
+.cakesContainer h1{
+    color:white;
+}
+.cakesContainer p{
+    color: white;
+    text-align: center;
+    width: 70%;
+}
+/* updates */
+.updates{
+    margin:10vh 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+    /* a */
+}
+.updates .containers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.updates .containers .box{
+    display: flex;
+    padding:10px 12px;
+    background-color: #ffa559;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.box img{
+    width: 120px;
+    border-radius: 10px;;
+}
+
+.photoCakesmem , .delightnes{
+    background-color: #ffa559;
+    /* width: 33.3%; */
+    display: flex;
+}
+.photoCakesmem img, .delightnes img{
+    background-color: #ffa559;
+    width: 100%;
+}
+.photocake{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    /* text-align: center; */
+    /* justi */
+}
+.photocake h2{
+    font-size: 18px ;
+}
+.photocake p{
+    font-size: 10px;
+}
+.photocake h2, .photocake p{
+    color:white;
+}
+/* .photocake  */
+.photocake a{
+    display: inline-block;
+    padding:5px 10px;
+    text-decoration: none;
+    background-color: #f3862e;
+    color:white;
+    
+}
+
+/* Google Review */
+.googlereview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5vh;
+    padding-bottom: 30px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    /* min-height: 100%; */
+      /* margin-bottom: -50px; */
+}
+.googleContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.commentsContainer{
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile a{
+    display: block;
+    
+}
+.profile img{
+    height:80px;
+}
+.profile .svggoog{
+    height:20px;
+}
+.secondContainer{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-items: center; */
+    align-items: center;
+}
+.copyright a{
+    display: inline-block;
+    color: #000;
+    width:40%;
+    text-decoration: none;
+    text-align: center;
+}

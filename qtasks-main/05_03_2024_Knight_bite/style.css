@@ -1,0 +1,324 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;    
+}
+/* background-image:linear-gradient(#000000,#161d20) */
+/* header */
+body{
+    position:relative;
+}
+.head{
+    background-image: url(./Images/app-link-background.svg);
+    background-repeat: no-repeat;
+    height:100vh;
+    margin-bottom: 5px;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    background-color: rgba(0,0,0,0.12);
+    position:fixed;
+    width: 100%;
+    top: 0;
+}
+.logo img{
+    width:300px;
+    /* height:200px; */
+    margin:0px 100px;
+}
+.nav ul{
+    /* width: 50%; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* flex: 0 0 auto; */
+    /* margin: auto; */
+    /* gap:40px; */
+    
+
+}
+.nav li{
+    list-style-type: none;
+    width:150px;
+}
+.nav li a {
+    /* display: block; */
+    /* height:20px; */
+    color:#ffffff;
+    font-size:32px;
+    text-decoration: none;
+}
+.head h1{
+    font-size:85px;
+    font-family: cursive;
+    color:white;
+    padding-top:40vh;
+    text-align: center;
+    font-weight: 700;
+}
+.head .btn1{
+    font-size:24px;
+    display: block;
+    margin: 70px auto 30px;
+    padding:20px 40px;
+    background-color: #ff5672;
+    
+    border: none;
+    border-radius: 10px;
+}
+.head .btn1 a{
+    text-decoration: none;
+    color:white;
+}
+.head h3{
+    text-align: center;
+    color:white;
+    font-size:24px;
+    font-weight: 300;
+    font-family: sans-serif;
+    margin:70px auto;
+    text-transform: capitalize;
+}
+.store_container{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.store_container img{
+    height:70px;
+    width: 182.7px;
+}
+.istore img{
+    transform: scale(1);
+}
+.playstore img{
+    transform: scale(1.1);
+}
+/* featues_Container */
+.features_Container{
+    /* margin-top: 20px; */
+    box-shadow:2px 2px 2px 2px gray;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    /* margin-bottom: 10vh; */
+    padding:10vh;
+}
+.features_Container h1{
+    font-size:72px;
+    margin-bottom:40px;
+    color:#424242;
+    font-family: sans-serif;
+    padding:50px;
+    padding-top: 5vh;
+    font-weight: lighter;
+
+}
+.features_list{
+    display: flex;
+    /* gap:20px; */
+}
+.feature{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 20px;
+    /* width: 200px; */
+    gap:30px;
+    
+    
+}
+.feature img{
+    width:220px;
+}
+.feature-description{
+    font-size:28px;
+    text-align: center;
+    font-family: sans-serif;
+    color:#424242;
+}
+/* Enjoy */
+.enjoy{
+    width:100%;
+    margin:auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: stretch; */
+    background-image: url(./Images/banner-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:140vh;
+}
+.enjoy h2{
+    text-align: center;
+    padding-top:60vh;
+    font-size: 98px;
+    color:white;
+    font-family: sans-serif;
+}
+/* category */
+.category{
+    /* width: 100; */
+    background-image: url(./Images/banner-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:125vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.category h2{
+    text-transform: uppercase;
+    text-align:center;
+    /* margin: auto; */
+    padding-top:40vh;
+    font-size: 8rem;
+    color:white;
+    font-family: cursive;
+    padding-right:20px;
+    padding-left:20px;
+    
+}
+.category .btn2{
+    padding:20px 40px ;
+    background-color: transparent;
+    border:solid 1px white;
+    border-radius: 40px;
+
+
+}
+.category .btn2 a{
+    text-decoration: none;
+    font-size: 32px;
+    color:white;
+}
+
+
+
+
+/* connect */
+.connect{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+.connect h1{
+    padding:40px;
+    color:#424242;
+    font-size: 5em;
+    font-family: cursive;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap:20px;
+}
+.companyicons{
+    margin-top: 10vh;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.connect h2{
+    font-size: 3em;
+    font-family: sans-serif;
+    color: #424253;
+}
+.connect p{
+    font-size:32px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+.contactus,.quicklinks,.emailadd,.headoffice,.location,.followus{
+    padding:20px;
+    /* border:solid 2px black; */
+    justify-content: start;
+    margin-right: 10px;
+}
+.headoffice ,.location,.followus{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: space-between;
+}
+.contactus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+.imail,.phone{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.quicklinks{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:20px;
+}
+.quicklinks ul{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.emailadd{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.form_s{
+    display: flex;
+    align-items: center;
+    
+}
+.emailadd .form_s input{
+
+    display: block;
+    height:90px;
+    border-radius: 30px;
+    text-align: center;
+    width:80%;
+}
+.contactus p,.quicklinks ul a,.emailadd p,.headoffice p,.location ul p {
+    font-size:24px;
+    color:#595c59;
+    font-weight: 200;
+    text-decoration: none;
+}
+.followus .followus_social{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    /* margin: auto; */
+
+}
+.followus_social img{
+    width:60px;
+    height:60px;
+}
+/* copyright */
+.copyright{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+}
+.copyright p{
+    padding:25px;
+    font-size: 22px;
+    color: white;
+}

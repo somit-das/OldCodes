@@ -1,0 +1,89 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.container
+{
+    background-color: cornflowerblue;
+    
+}
+.container h1 {
+    text-align: center;
+    color:white;
+    font-family: cursive;
+    font-size: 72px;
+    padding:10px;
+    text-shadow: 10px 10px 2px rgb(7, 93, 169);
+    width: 100%;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    /* position: relative; */
+    
+}
+.aside{
+    /* height: 100%; */
+    width: 200px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    /* align- */
+    position: relative;
+    
+}
+.aside a{
+    display: inline-block;
+    padding-bottom:10px;
+    color:white;
+    font-size:36px;
+    text-decoration: none;
+    /* width:30px; */
+    /* height: 100%; */
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 5px 5px 2px gray;
+}
+.mainContainer{
+    background-color: aliceblue;
+    /* height:100vh; */
+    width: 100%;
+    height: 100%;
+    /* padding-bottom:100px; */
+}
+.mainContainer .image{
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+    /* background-attachment: fixed; */
+    box-shadow:10px 10px 10px rgba(128, 128, 128, 0.523);
+    transform: rotate(-15deg);
+    background-image: url(./Images/pexels-the-craft-wonder-421884.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: scroll; */
+    border-radius: 10px;
+    
+}
+.imgcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content:space-around ;
+    row-gap: 30px;
+    padding:50px;
+    /* align-i: space-around; */
+    
+}
+.fixed{
+    /* display: ; */
+    position: fixed;
+    top:40%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+}

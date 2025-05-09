@@ -1,0 +1,5 @@
+#To create Flutter Project
+flutter create first_app
+
+#what is materialDesign
+material design system was created by google and it is simply set of suggestions, rules and guidelines established by google that help you build beautiful user interfaces.

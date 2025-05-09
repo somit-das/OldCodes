@@ -1,0 +1,242 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    flex-direction: column;
+}
+/* Header */
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#eeebec;
+    
+    padding: 40px;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.navlinks a {
+    /* display: inline-block; */
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main */
+.main{
+    background-color: #f7f7f7;
+    width: 100%;
+}
+.main .image{
+    margin: auto;
+    position: relative;
+    width:1126px;
+}
+.main .image img{
+    display: block;
+    margin: auto;
+    /* display: relative; */
+    
+}
+
+.main div a{
+    text-decoration: none;
+    background-image: url(../Images/icons.png);
+    display: block;
+    background-repeat: no-repeat;
+    width: 200px;
+    height:200px;
+    padding:52px ;
+    background-position: 0px -160px;
+    background-size: cover;
+    position:absolute;
+    right:30px;
+    bottom:-40px;
+    color:white;
+    font-size: 42px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* text-align: end; It looks like absolute positioning conflicts with the alignment. */
+}
+
+
+/* middle */
+.midcontainer{
+    background-color: #ebe7e8 ;
+}
+.middle{
+    /* padding:; */
+    
+    display:flex;
+    justify-content: space-around;
+    width:960px;
+    margin: auto;
+}
+.middle .head{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.middle .head h3{
+    /* padding:30px; */
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color:#7a6666;
+}
+.middle .head h4{
+    color:#e32a77;
+    font-size: 32px;
+    /* padding: 30px; */
+}
+.middle .head p{
+    color:#7a6666;
+    font-size: 20px;
+    /* padding: 30px; */
+    margin-bottom: 20px;
+}
+/* features */
+.features{
+    background-color: #c8c10d;
+    height:300px;
+    
+}
+
+.features .featuresContainer{
+    height: 100%;
+    width:960px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+
+ .container1 .products{
+    display: block;
+    height:80px;
+    width:100%;
+    background-position: 19px -665px;
+    background-image: url(../Images/icons.png);
+    background-size:279px;
+    background-repeat: no-repeat;
+    margin:auto;
+    margin-bottom: 40px;
+    
+    
+}
+
+ .container2 .products{
+    display: block;
+    height:80px;
+    width:100%;
+    background-position: 11px -745px;
+    background-image: url(../Images/icons.png);
+    background-size:279px;
+    background-repeat: no-repeat;
+    margin:auto;
+    margin-bottom: 40px;
+    
+    
+}
+ .container3 .products{
+    display: block;
+    height:80px;
+    width:100%;
+    background-position: 3px -500px;
+    background-image: url(../Images/icons.png);
+    background-size:279px;
+    background-repeat: no-repeat;
+    margin:auto;
+    margin-bottom: 40px;
+    
+    
+}
+ .container4 .products{
+    display: block;
+    height:80px;
+    width:100%;
+    background-position: 46px -581px;
+    background-image: url(../Images/icons.png);
+    background-size:279px;
+    background-repeat: no-repeat;
+    margin:auto;
+    margin-bottom: 40px;
+    
+    
+}
+ h1{
+    color:white;
+    font-weight: 300;
+}
+
+
+
+/* footer */
+.footer{
+    
+    background-color: #cb3362;
+   
+}
+.footerContainer{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    margin:auto;
+    /* justify-content: space-around ; */
+    justify-content: center;
+    gap:20px;
+}
+.links a{
+    display:block;
+    height:41px;
+    width:10%;
+    background-size: 200px; 
+    background-image: url(../Images/icons.png);
+    background-repeat: no-repeat;
+    margin-bottom:50px;
+    margin-top:100px;
+    
+}
+.facebook{
+    
+    
+    background-position: 1px 2px;
+   
+}
+.twitter{
+    background-position: 1px -121px;
+    
+}
+.googleplus{
+    background-position: 1px -39px;
+}
+.pinterest{
+    background-position: 1px -80px;
+}
+.copyright{
+    margin-bottom: 50px;
+}
+.copyright p{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}

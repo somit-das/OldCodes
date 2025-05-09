@@ -1,0 +1,16 @@
+*{padding: 0; margin: 0; font-family: sans-serif;}
+h1{
+    text-align: center;
+    color: wheat;
+}
+.Container{
+    margin: auto;
+    margin-top: 10vh;
+    /* height:300px; */
+    width: 300px;
+    border: solid 1px gray;
+    padding: 50px;
+    text-align: center;
+    font-size: 45px;
+    background-image: linear-gradient(blue, white);
+}

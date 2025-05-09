@@ -1,0 +1,143 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    /* background-color: #f8f8f8; */
+}
+.root .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav,.main,.sociallinks{
+    width: 80%;
+    
+}
+.nav,.main{
+    margin-bottom: 10vh;
+}
+.noListtype li{
+    list-style-type: none;
+}
+.noListtype li a{
+    text-decoration: none;
+}
+.namelogo a{
+    text-decoration: none;
+}
+/* nav */
+.nav{
+    /* background-color: red; */
+    display:flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.nav a{
+    color:gray;
+    font-size:24px;
+}
+.linksContainer{
+    width: 40%;
+}
+
+.linksContainer .noListtype{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.linksContainer a{
+    
+}
+/*main*/
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .gridAligns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+}
+
+.main p{
+    /* font-size:58px; */
+    font-size:18px;
+    /* align-self: center; */
+    justify-content: center;
+    text-align: center;
+}
+/* .description{
+    line-height: 2 rem;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+} */
+/* .main iframe{
+    overflow: hidden;
+} */
+.main .projects{
+    box-shadow: 8px 8px 8px 8px  rgba(128, 128, 128, 0.303) ;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+.main .projects a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.main .projects img{
+    width:340px;
+    /* height:800px; */
+}
+
+
+.description a{
+    text-decoration: none;
+    align-self: first baseline;
+    background-color:#7BC9FF ;
+    color:#f5e60cd5;
+    padding:20px 40px;
+    border-radius: 15px;
+}
+.main .job-specification{
+    
+    /* transition: all 2s ease-out; */
+    transition: margin-right 4s ease-in-out 1s;
+    transition-timing-function: steps(6, end);
+}
+
+/* main imgContainer */
+.imgContainer{
+    /* height: 100vh; */
+    height: 700px;
+    /* width:60vw; */
+    width:700px;
+    background-image: linear-gradient(rgba(7, 50, 78, 0.005) , rgba(53, 48, 48, 0)), url(./images/blueblob_2.svg);
+    
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: top 30%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgContainer img{
+    width:50%;
+    /* transform:rotate(30deg); */
+    border-radius: 30%;
+    padding:40px;
+    /* transformtranslate(50 50); */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
